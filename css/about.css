@@ -1,12 +1,40 @@
+body {
+  background-image: url('https://png.pngtree.com/background/20210717/original/pngtree-colored-watercolor-splash-border-background-picture-image_1432675.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
 .wrapper {
   display: inline-flex;
   list-style: none;
-  height: 120px;
+  height: 1000px;
   width: 100%;
-  padding-top: 40px;
+  padding-top: 100px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
 }
+
+.header, .h1, .h2 {
+  display: inline-flex;
+  list-style: none;
+  height: 100px;
+  width: 100%;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 300px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
+
+.rock-photo, .paper-photo, .sicsoors {
+  height: 100px;
+  width: 100px;
+}
+
 
 .wrapper .iconone {
   position: relative;
@@ -97,20 +125,20 @@
 .wrapper .rock:hover,
 .wrapper .rock:hover .tooltip,
 .wrapper .rock:hover .tooltip::before {
-  background: #1877f2;
+  background: #f1e040;
   color: #fff;
 }
 
 .wrapper .paper:hover,
 .wrapper .paper:hover .tooltip,
 .wrapper .paper:hover .tooltip::before {
-  background: #1da1f2;
+  background: #a8f58c;
   color: #fff;
 }
 
 .wrapper .sicsoors:hover,
 .wrapper .sicsoors:hover .tooltip,
 .wrapper .sicsoors:hover .tooltip::before {
-  background: #e4405f;
+  background: #70a5ff;
   color: #fff;
 }
