@@ -30,6 +30,20 @@ body {
   margin: 20px;
 }
 
+.headerbutagain {
+  display: inline-flex;
+  list-style: none;
+  height: 100px;
+  width: 100%;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 300px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
+
 .rock-photo, .paper-photo, .sicsoors {
   height: 100px;
   width: 100px;
