@@ -43,14 +43,41 @@ body {
   padding: 50px;
   margin: 20px;
 }
+.playerheader {
+  display: inline-flex;
+  list-style: none;
+  height: 150px;
+  width: 100%;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 100px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
+.botheader {
+  display: inline-flex;
+  list-style: none;
+  height: 150px;
+  width: 100%;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 100px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
 
-.rock-photo, .paper-photo, .sicsoors {
+.rock-photo, .paper-photo, .sicsoors  {
   height: 100px;
   width: 100px;
 }
 
 
-.wrapper .iconone {
+
+.wrapper .iconone  {
   position: relative;
   background: #fce5cd;
   border-radius: 50%;
@@ -98,7 +125,19 @@ body {
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-
+/*.wrapper, .reset {
+   position: relative;
+  background: hsl(0, 33%, 46%);
+  border-radius: 50%;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}*/
 .wrapper .tooltip {
   position: absolute;
   top: 0;
@@ -153,6 +192,12 @@ body {
 .wrapper .sicsoors:hover,
 .wrapper .sicsoors:hover .tooltip,
 .wrapper .sicsoors:hover .tooltip::before {
+  background: #70a5ff;
+  color: #fff;
+}
+.wrapper .reset:hover,
+.wrapper .reset:hover .tooltip,
+.wrapper .reset:hover .tooltip::before {
   background: #70a5ff;
   color: #fff;
 }
