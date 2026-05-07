@@ -6,17 +6,8 @@ body {
 }
 
 
-.wrapper {
-  display: inline-flex;
-  list-style: none;
-  height: 1000px;
-  width: 100%;
-  padding-top: 100px;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-}
 
-.header, .h1, .h2 {
+.header, .h1, .h2, .h3 {
   display: inline-flex;
   list-style: none;
   height: 100px;
@@ -28,7 +19,7 @@ body {
   border: 3px solid rgb(0, 0, 0);
   padding: 50px;
   margin: 20px;
-  
+    text-align: center;
 }
 
 .headerbutagain {
@@ -52,9 +43,9 @@ body {
   padding-top: 100px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  width: 100px;
+  width: 200px;
   border: 3px solid rgb(0, 0, 0);
-  padding: 50px;
+  padding: 100px;
   margin: 20px;
   background-color: #d9d2e9;
 }
@@ -66,12 +57,29 @@ body {
   padding-top: 100px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  width: 100px;
+  width: 200px;
   border: 3px solid rgb(0, 0, 0);
   padding: 50px;
   margin: 20px;
   background-color: #ead1dc;
 }
+.choiceheader {
+display: inline-flex;
+  list-style: none;
+  height: 150px;
+  width: 100%;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 300px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 100px;
+  margin: 10px;
+  background-color: #fff2cc;
+}
+/* CSS */
+
+
 
 .rock-photo, .paper-photo, .sicsoors  {
   height: 100px;
@@ -126,19 +134,7 @@ body {
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-/*.wrapper, .reset {
-   position: relative;
-  background: hsl(0, 33%, 46%);
-  border-radius: 50%;
-  margin: 10px;
-  width: 200px;
-  height: 200px;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}*/
+
 .wrapper .tooltip {
   position: absolute;
   top: 0;
@@ -201,4 +197,20 @@ body {
 .wrapper .reset:hover .tooltip::before {
   background: #70a5ff;
   color: #fff;
+}
+
+.resetbutton {
+  position: relative;
+  
+  border-radius: 50%;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
 }
