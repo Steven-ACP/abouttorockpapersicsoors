@@ -5,19 +5,17 @@ body {
   background-size: cover;
 }
 
-
-
 .header, .h1, .h2, .h3 {
+  
   display: inline-flex;
   list-style: none;
   height: 100px;
   width: 100%;
-  padding-top: 100px;
+  padding: 100px 50px 50px 50px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
   width: 300px;
   border: 3px solid rgb(0, 0, 0);
-  padding: 50px;
   margin: 20px;
     text-align: center;
 }
@@ -36,20 +34,8 @@ body {
   margin: 20px;
 }
 .playerheader {
-  display: inline-flex;
-  list-style: none;
-  height: 150px;
-  width: 100%;
-  padding-top: 100px;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-  width: 200px;
-  border: 3px solid rgb(0, 0, 0);
-  padding: 100px;
-  margin: 20px;
-  background-color: #d9d2e9;
-}
-.botheader {
+  position: fixed;
+  left: 645px;
   display: inline-flex;
   list-style: none;
   height: 150px;
@@ -61,25 +47,41 @@ body {
   border: 3px solid rgb(0, 0, 0);
   padding: 50px;
   margin: 20px;
-  background-color: #ead1dc;
+  background-color: #d9d2e9;
 }
-.choiceheader {
-display: inline-flex;
+.botheader {
+  position: fixed;
+  left: 1200px;
+  display: inline-flex;
   list-style: none;
   height: 150px;
-  width: 100%;
   padding-top: 100px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  width: 300px;
+  width: 200px;
   border: 3px solid rgb(0, 0, 0);
-  padding: 100px;
+  padding: 50px;
+  margin: 20px;
+  background-color: #ead1dc;
+}
+.choiceheader {
+  position: fixed;
+  left: 875px;
+  top: 60%;
+  transform: translateY(-50%);
+display: inline-flex;
+  list-style: none;
+  height: 150px;
+  width: 90%;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  width: 200px;
+  border: 3px solid rgb(0, 0, 0);
+  padding: 0px;
   margin: 10px;
   background-color: #fff2cc;
 }
-/* CSS */
-
-
 
 .rock-photo, .paper-photo, .sicsoors  {
   height: 100px;
@@ -87,7 +89,10 @@ display: inline-flex;
 }
 
 .wrapper .iconone  {
-  position: relative;
+  position: fixed;
+  left:655px;
+  top: 40%;
+  transform: translateY(-50%);
   background: #fce5cd;
   border-radius: 50%;
   margin: 10px;
@@ -103,7 +108,10 @@ display: inline-flex;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .icontwo {
-  position: relative;
+  position: fixed;
+  left:875px;
+  top: 40%;
+  transform: translateY(-50%);
   background: #d9ead3;
   border-radius: 50%;
   margin: 10px;
@@ -119,18 +127,19 @@ display: inline-flex;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 .wrapper .iconthree {
-  position: relative;
+  position: fixed;
+  left:1100px;
+    top: 40%;
+  transform: translateY(-50%);
   background: #c9daf8;
   border-radius: 50%;
   margin: 10px;
   width: 200px;
   height: 200px;
-  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
@@ -200,8 +209,10 @@ display: inline-flex;
 }
 
 .resetbutton {
-  position: relative;
-  
+  position: fixed;
+  left: 875px;
+  top: 80%;
+  transform: translateY(-50%);
   border-radius: 50%;
   margin: 10px;
   width: 200px;
