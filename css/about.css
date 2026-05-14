@@ -35,7 +35,9 @@ body {
 }
 .playerheader {
   position: fixed;
-  left: 645px;
+  left: 500px;
+   top: 15%;
+  transform: translateY(-50%);
   display: inline-flex;
   list-style: none;
   height: 150px;
@@ -51,7 +53,9 @@ body {
 }
 .botheader {
   position: fixed;
-  left: 1200px;
+  left: 1050px;
+  top: 15%;
+  transform: translateY(-50%);
   display: inline-flex;
   list-style: none;
   height: 150px;
@@ -66,8 +70,8 @@ body {
 }
 .choiceheader {
   position: fixed;
-  left: 875px;
-  top: 60%;
+  left: 775px;
+  top: 65%;
   transform: translateY(-50%);
 display: inline-flex;
   list-style: none;
@@ -76,7 +80,7 @@ display: inline-flex;
   padding-top: 100px;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  width: 200px;
+  width: 300px;
   border: 3px solid rgb(0, 0, 0);
   padding: 0px;
   margin: 10px;
@@ -90,7 +94,7 @@ display: inline-flex;
 
 .wrapper .iconone  {
   position: fixed;
-  left:655px;
+  left:555px;
   top: 40%;
   transform: translateY(-50%);
   background: #fce5cd;
@@ -109,7 +113,7 @@ display: inline-flex;
 }
 .wrapper .icontwo {
   position: fixed;
-  left:875px;
+  left:775px;
   top: 40%;
   transform: translateY(-50%);
   background: #d9ead3;
@@ -128,7 +132,7 @@ display: inline-flex;
 }
 .wrapper .iconthree {
   position: fixed;
-  left:1100px;
+  left:1000px;
     top: 40%;
   transform: translateY(-50%);
   background: #c9daf8;
